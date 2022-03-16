@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  outline: none;
+
+}
+
+body {
+
+  background-color: #251e1e;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  background-color: #f7f7f7;
+  margin: 100px auto;
+  border-radius: 16px;
+
+  h1 {
+
+    text-align: center;
+    margin-top: 32px;
+
+  }
+
+  .form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 32px 100px;
+
+    label {
+
+      font-size: 16px;
+      margin: 8px 0 4px 0;
+
+    }
+
+    input {
+
+      border: none;
+      border-radius: 12px;
+      padding: 8px 16px;
+      background-color: #e7e7e7;
+
+    }
+
+    span {
+
+      font-size: 12px;
+      color: red;
+      margin: 4px 0;
+      // opacity: 0;
+
+    }
+
+
+    .textArea {
+
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      textarea {
+
+        width: 100%;
+        border-radius: 16px;
+        padding: 8px 16px;
+
+      }
+
+      .contador {
+
+        display: block;
+        position: absolute;
+        bottom: 8px;
+        right: -8px;
+
+        span {
+
+          color: blue;
+        }
+
+      }
+    }
+
+    .btn {
+
+      display: flex;
+      gap: 16px;
+      margin-top: 16px;
+
+      button {
+
+        width: 150px;
+        height: 30px;
+        border-radius: 16px;
+        border: none;
+        font-size: 14px;
+
+      }
+
+      .btnSubmit {
+
+        background-color: rgb(156, 241, 28);
+
+      }
+
+      .btnReset {
+
+        background-color: rgb(241, 128, 128);
+      }
+    }
+  }
+}
