@@ -1,0 +1,84 @@
+/* Font family ROBOTO */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+/* Estilos gerais */
+html, body, h1, h2, h3, h4, ul, li, a, button, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+.header {
+  padding: 32px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #47a4d4), color-stop(99%, white));
+  background: linear-gradient(90deg, #47a4d4 15%, white 99%);
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 64px;
+  gap: 32px;
+}
+
+form input {
+  padding: 16px;
+  background-color: transparent;
+  border: solid 1px #000;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #000;
+}
+
+form .botao_enviar {
+  width: 150px;
+  padding: 8px;
+  background: #47a4d4;
+  border-radius: 16px;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+form .ancora {
+  width: 200px;
+  margin: 0 auto;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  background-color: #000;
+  border-radius: 16px;
+  padding: 8px 16px;
+}
+
+.container_cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  background-color: #000;
+  padding: 32px;
+  gap: 16px;
+}
+
+.container_cards .textos1 {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #fff;
+}
