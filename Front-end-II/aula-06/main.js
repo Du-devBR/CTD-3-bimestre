@@ -72,6 +72,8 @@ function contentPosts() {
     }
   ]
 
+  console.log(posts)
+
   for(let post of posts) {
 
     mainContent.innerHTML += `
@@ -83,5 +85,6 @@ function contentPosts() {
     </div>
     `
   }
+
 }
 contentPosts()
