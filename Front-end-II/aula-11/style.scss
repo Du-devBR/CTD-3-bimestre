@@ -1,0 +1,35 @@
+* {
+
+  outline: none;
+}
+
+.form {
+
+    small {
+
+      display: none;
+
+    }
+
+    // .fildForm {
+
+    //   input {
+
+    //     // border: solid 1;
+    //   }
+    // }
+
+    .show {
+
+      border: solid 1px red;
+
+      color: red;
+
+    }
+
+    .show_small {
+
+      color: red;
+      display: block;
+    }
+}

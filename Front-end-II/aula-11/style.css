@@ -1,0 +1,17 @@
+* {
+  outline: none;
+}
+
+.form small {
+  display: none;
+}
+
+.form .show {
+  border: solid 1px red;
+  color: red;
+}
+
+.form .show_small {
+  color: red;
+  display: block;
+}
