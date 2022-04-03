@@ -2,6 +2,7 @@ let UserInputReference = document.querySelector('#userName')
 let ContactInputReference = document.querySelector('#userContact')
 let textInputReference = document.querySelector('#textInput')
 let caracterCount = document.querySelector('#count')
+let send = document.querySelector('#btnInputSubimt')
 
 UserInputReference.addEventListener('click', function(event){
 
@@ -36,7 +37,7 @@ function limiText(valor) {
   textInputReference.addEventListener('keydown', function(event){
 
     if(quant >= total) {
-      
+
       resto = quant - total;
       document.getElementById('count').innerHTML = resto;
 
@@ -49,3 +50,19 @@ function limiText(valor) {
     }
   })
 }
+
+send.addEventListener('click', function(event){
+
+  event.preventDefault()
+
+  let teste =
+    {
+      nome: UserInputReference.value,
+      senha: ContactInputReference.value
+
+    },
+
+
+ teste1 = teste.push()
+ console.log(teste1)
+})
